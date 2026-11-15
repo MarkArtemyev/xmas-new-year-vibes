@@ -6,6 +6,7 @@ const initial={preset:'hearth',effects:{snow:true,lights:true,frost:false,stars:
 let settings=structuredClone(initial);
 let winter=null;
 let pageWinter=null;
+let restorePageOverlay=false;
 let paused=false;
 let off=false;
 let format='html';
@@ -15,6 +16,7 @@ const poems={hearth:'Пусть мир немного подождёт.',norther
 const cdn='https://cdn.jsdelivr.net/gh/MarkArtemyev/xmas-new-year-vibes@v'+version+'/dist/';
 
 function announce(message){
+ if($('#snippet-dialog').open){$('#dialog-status').textContent=message;return;}
  const toast=$('#toast');toast.textContent=message;toast.classList.add('visible');
  clearTimeout(toastTimer);toastTimer=setTimeout(()=>toast.classList.remove('visible'),3200);
 }
@@ -42,7 +44,7 @@ function update(){
 function configuration(){
  return `  preset: '${settings.preset}',\n  density: ${settings.density},\n  speed: ${settings.speed},\n  effects: ${JSON.stringify(settings.effects)},\n  respectReducedMotion: true`;
 }
-const controls=`<button id="winter-pause" aria-pressed="false">Пауза</button>\n<button id="winter-off">Выключить</button>`;
+const controls=`<button type="button" id="winter-pause" aria-pressed="false">Пауза</button>\n<button type="button" id="winter-off">Выключить</button>`;
 const actions=`let paused = false;\ndocument.querySelector('#winter-pause').onclick = (event) => {\n  paused = !paused;\n  winter[paused ? 'pause' : 'resume']();\n  event.currentTarget.setAttribute('aria-pressed', paused);\n  event.currentTarget.textContent = paused ? 'Продолжить' : 'Пауза';\n};\ndocument.querySelector('#winter-off').onclick = () => {\n  winter.destroy();\n  document.querySelector('#winter-pause').disabled = true;\n};`;
 function snippet(){
  if(format==='html')return `${controls}\n\n<script src="${cdn}winter-vibes.min.js"></script>\n<script>\nconst winter = WinterVibes.createWinterVibes({\n${configuration()}\n});\n${actions}\n</script>`;
@@ -97,15 +99,25 @@ $('#countdown-pause').addEventListener('click',event=>{
 const dialog=$('#snippet-dialog');
 let extraSnippet='';
 for(const button of document.querySelectorAll('[data-snippet]'))button.addEventListener('click',()=>{
- const component=button.dataset.snippet==='countdown'?'<winter-countdown\n  target="2027-01-01T00:00:00+04:00"\n  label="До нового года">\n</winter-countdown>\n<button id="timer-pause">Пауза</button>\n<script>\ndocument.querySelector("#timer-pause").onclick = () => {\n  document.querySelector("winter-countdown").toggleAttribute("paused");\n};\n</script>':'<winter-postcard\n  title="Для тебя, с теплом"\n  message="Пусть будет время на маленькие радости."\n  signature="Обнимаю ♡">\n</winter-postcard>';
+ const component=button.dataset.snippet==='countdown'?'<winter-countdown label="До 2027 года">\n</winter-countdown>\n<!-- Полночь по местному времени посетителя -->\n<button type="button" id="timer-pause" aria-pressed="false">Пауза</button>\n<script>\ndocument.querySelector("#timer-pause").onclick = (event) => {\n  const paused = document.querySelector("winter-countdown").toggleAttribute("paused");\n  event.currentTarget.setAttribute("aria-pressed", paused);\n  event.currentTarget.textContent = paused ? "Продолжить" : "Пауза";\n};\n</script>':'<winter-postcard\n  title="Для тебя, с теплом"\n  message="Пусть будет время на маленькие радости."\n  signature="Обнимаю ♡">\n</winter-postcard>';
  extraSnippet=`<script src="${cdn}winter-vibes.min.js"></script>\n\n${component}`;
- $('#extra-code').textContent=extraSnippet;dialog.showModal();
+ $('#extra-code').textContent=extraSnippet;$('#dialog-status').textContent='';dialog.showModal();
 });
 $('#close-dialog').addEventListener('click',()=>dialog.close());
 dialog.addEventListener('click',event=>{if(event.target===dialog){const r=dialog.getBoundingClientRect();if(event.clientX<r.left||event.clientX>r.right||event.clientY<r.top||event.clientY>r.bottom)dialog.close();}});
 $('#copy-extra').addEventListener('click',()=>copy(extraSnippet));
 reducedMotion.addEventListener('change',update);
 mount();update();
-window.addEventListener('pagehide',()=>{winter?.destroy();pageWinter?.destroy();});
+window.addEventListener('pagehide',()=>{
+ restorePageOverlay=!!pageWinter;
+ winter?.destroy();pageWinter?.destroy();winter=null;pageWinter=null;
+});
 // Restoring from the browser back/forward cache must restore the actual layer too.
-window.addEventListener('pageshow',event=>{if(event.persisted&&!off){mount();update();}});
+window.addEventListener('pageshow',event=>{
+ if(event.persisted&&!off){
+  mount();
+  if(restorePageOverlay){pageWinter=createWinterVibes({...settings,zIndex:50});if(paused)pageWinter.pause();}
+  $('#page-off').hidden=!pageWinter;
+  update();
+ }
+});
