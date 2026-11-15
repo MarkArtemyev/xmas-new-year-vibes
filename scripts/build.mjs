@@ -10,6 +10,7 @@ await cp('src/winter-vibes.d.ts','dist/winter-vibes.d.ts');
 await cp('src/extras.d.ts','dist/extras.d.ts');
 await writeFile('dist/winter-vibes.d.ts',(await readFile('dist/winter-vibes.d.ts','utf8'))+'\nexport { registerWinterComponents } from "./extras.js";\n');
 for (const name of ['index.html','styles.css','app.js']) await cp('demo/'+name,'dist/'+name);
+for (const name of ['kitschmas.html','kitschmas.css','kitschmas.js']) await cp('demo/'+name,'dist/'+name);
 await cp('demo/assets','dist/assets',{recursive:true});
 await cp('LICENSE','dist/LICENSE');
 const min = await readFile('dist/winter-vibes.min.js');

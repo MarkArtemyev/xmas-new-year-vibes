@@ -1,0 +1,166 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="180" viewBox="0 0 1600 180" fill="none" preserveAspectRatio="xMidYMin meet">
+<!-- Silver-foil Kitschmas garland: original vector artwork, steady lights, transparent ground. -->
+<defs>
+<linearGradient id="silver" x1="0" y1="-22" x2="0" y2="26" gradientUnits="userSpaceOnUse"><stop stop-color="#526775"/><stop offset=".23" stop-color="#fcffff"/><stop offset=".42" stop-color="#96aeb9"/><stop offset=".55" stop-color="#fff"/><stop offset=".72" stop-color="#9aa8b8"/><stop offset=".89" stop-color="#f5ffff"/><stop offset="1" stop-color="#748995"/></linearGradient>
+<linearGradient id="foil" x1="-16" y1="-17" x2="17" y2="24" gradientUnits="userSpaceOnUse"><stop stop-color="#eaf4f7"/><stop offset=".23" stop-color="#849ca8"/><stop offset=".44" stop-color="#fff"/><stop offset=".51" stop-color="#d5e0e7"/><stop offset=".76" stop-color="#fafcff"/><stop offset="1" stop-color="#6b8798"/></linearGradient>
+<linearGradient id="wire" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#79868b"/><stop offset=".5" stop-color="#f6ffff"/><stop offset="1" stop-color="#9aadb3"/></linearGradient>
+<linearGradient id="glass" x1="-.45" y1="-.4" x2=".8" y2="1"><stop stop-color="#fff" stop-opacity=".76"/><stop offset=".2" stop-color="#fff" stop-opacity=".06"/><stop offset=".64" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#08182b" stop-opacity=".44"/></linearGradient>
+<radialGradient id="red" cx=".3" cy=".25" r=".85"><stop stop-color="#ff777d"/><stop offset=".35" stop-color="#dd283f"/><stop offset=".72" stop-color="#a20725"/><stop offset="1" stop-color="#570a20"/></radialGradient>
+<radialGradient id="green" cx=".3" cy=".23" r=".85"><stop stop-color="#a3e7b6"/><stop offset=".32" stop-color="#389477"/><stop offset=".7" stop-color="#0c6659"/><stop offset="1" stop-color="#093b3b"/></radialGradient>
+<radialGradient id="blue" cx=".28" cy=".23" r=".85"><stop stop-color="#a1e4ff"/><stop offset=".3" stop-color="#338cc9"/><stop offset=".7" stop-color="#2151a2"/><stop offset="1" stop-color="#1b275d"/></radialGradient>
+<radialGradient id="pink" cx=".27" cy=".22" r=".85"><stop stop-color="#ffcae9"/><stop offset=".32" stop-color="#ee7cb8"/><stop offset=".72" stop-color="#b62b7e"/><stop offset="1" stop-color="#6e185a"/></radialGradient>
+<linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#98702d"/><stop offset=".22" stop-color="#ffe6a0"/><stop offset=".43" stop-color="#f1bd57"/><stop offset=".58" stop-color="#fff0b7"/><stop offset=".79" stop-color="#b47d2d"/><stop offset="1" stop-color="#f6d37a"/></linearGradient>
+<linearGradient id="velvet" x1="0" y1="0" x2=".7" y2="1"><stop stop-color="#cc5062"/><stop offset=".23" stop-color="#9b253c"/><stop offset=".58" stop-color="#77162e"/><stop offset="1" stop-color="#450f22"/></linearGradient>
+<linearGradient id="ribbon" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#5b1328"/><stop offset=".4" stop-color="#a93548"/><stop offset=".65" stop-color="#b84454"/><stop offset="1" stop-color="#6f1830"/></linearGradient>
+<pattern id="tartan" width="12" height="12" patternUnits="userSpaceOnUse"><path fill="#103f39" d="M0 0h12v12H0z"/><path stroke="#c13240" stroke-width="3" d="M3 0v12M0 3h12"/><path stroke="#e9c276" stroke-width=".6" d="M8 0v12M0 8h12"/><path stroke="#062e2c" stroke-width="1.5" d="M10.5 0v12M0 10.5h12"/></pattern>
+<g id="tuft" fill="url(#silver)">
+<path d="M-2-2-18-18-15-20 2-2Z"/><path d="M0-1-9-26-6-25 2 0Z"/><path d="M2 0 1-21 3-20 5 1Z"/><path d="M2-1 12-25 14-24 5 1Z"/><path d="M2 0 23-16 24-13 5 3Z"/>
+<path d="M-2 1-25 6-24 9 0 4Z"/><path d="M-1 2-22 19-19 21 2 4Z"/><path d="M0 2-14 28-11 29 3 4Z"/><path d="M0 3-4 24-1 26 3 5Z"/><path d="M2 3 5 31 8 29 5 3Z"/><path d="M4 2 17 25 20 24 6 1Z"/><path d="M5 1 29 15 30 12 6-1Z"/>
+<path fill="url(#foil)" d="M-2-1-24-8-23-11 1-3ZM2 2-9 17-6 18 4 3ZM4 0 20-2 21 1 6 3ZM0-2-4-14-2-16 2-2Z"/>
+<path stroke="#fff" stroke-width=".6" opacity=".8" d="m-16-18 17 17m-21 20L1 3m5 26L3 4m24 9L5 1m-4-22L3 0"/>
+</g>
+<g id="bulb">
+<ellipse cx="0" cy="25" rx="20" ry="24" fill="currentColor" opacity=".065"/><ellipse cx="0" cy="25" rx="15" ry="20" fill="currentColor" opacity=".13"/>
+<path d="M-4 7C-5 13-12 21-10 28-8 36-2 42 0 44 2 42 8 36 10 28 12 21 5 13 4 7Z" fill="currentColor"/>
+<path d="M-4 7C-5 13-12 21-10 28-8 36-2 42 0 44 2 42 8 36 10 28 12 21 5 13 4 7Z" fill="url(#glass)" stroke="#fff" stroke-opacity=".32" stroke-width=".7"/>
+<path d="M-4 12C-6 17-9 22-7 27" stroke="#fff" stroke-width="2.2" stroke-linecap="round" opacity=".7"/><path d="M2 35 0 39" stroke="#fff" stroke-width="1" opacity=".35"/>
+<path d="M-5 0h10v8H-5z" fill="#224d43"/><path stroke="#638174" stroke-width=".8" d="M-5 2h10M-5 5h10"/><path d="M-3 8h6" stroke="#9fc7ac" stroke-opacity=".55"/>
+</g>
+<g id="cap"><path d="M-3-5a3 3 0 0 1 6 0v3H-3Z" fill="none" stroke="#d6b45e" stroke-width=".9"/><path d="M-6-3 6-3 7 3H-7Z" fill="url(#gold)"/><path d="M-4-2v4m3-4v4m3-4v4m3-4v4" stroke="#805c26" stroke-width=".7" opacity=".65"/></g>
+<g id="bow">
+<path d="M-4 4-9 41-17 32-24 37-14 1Z" fill="url(#ribbon)"/><path d="M5 3 11 40 18 29 25 34 14 0Z" fill="url(#ribbon)"/>
+<path d="M-14 7-21 32-17 31-10 7Z" fill="url(#tartan)" opacity=".9"/>
+<path d="M-2 0C-12-19-32-18-30-5-30 9-12 13-2 4Z" fill="url(#velvet)" stroke="#5e132b" stroke-width=".8"/>
+<path d="M2 0C11-20 32-18 31-5 31 9 12 13 2 4Z" fill="url(#velvet)" stroke="#5e132b" stroke-width=".8"/>
+<path d="M-24-9C-21-13-8-7-4 0M24-10C21-14 8-7 4 0" fill="none" stroke="#e77a84" stroke-width="1" opacity=".5"/>
+<path d="M-27 2C-20 0-11 1-5 3M27 2C21 0 11 1 5 3" fill="none" stroke="#380e20" stroke-width="1.7" opacity=".5"/>
+<path d="M-5-5C-2-7 3-6 6-3L5 7C2 9-3 8-6 5Z" fill="url(#ribbon)" stroke="#72192e" stroke-width=".7"/><path d="M-2-4 0 6" stroke="#e58a8c" stroke-width="1" opacity=".42"/>
+</g>
+<g id="star"><path d="M0-10 2.8-3.8 9.5-3 4.4 1.6 5.8 8.3 0 4.5-5.8 8.3-4.4 1.6-9.5-3-2.8-3.8Z" fill="url(#gold)" stroke="#a57b32" stroke-width=".65"/><path d="M0-8V1L8-2M0 1-4.5 6M0 1 4 6" fill="none" stroke="#fff0bf" stroke-width=".65" opacity=".8"/></g>
+</defs>
+<path d="M-400 10Q-200 82 0 10Q200 82 400 10Q600 82 800 10Q1000 82 1200 10Q1400 82 1600 10Q1800 82 2000 10" stroke="#485e68" stroke-opacity=".4" stroke-width="4.5" transform="translate(0 2)"/>
+<path d="M116 39.6q4 14 0 49.4" stroke="#b2a27a" stroke-width=".8"/>
+<path d="M371 19.7q-4 14 0 61.3" stroke="#b2a27a" stroke-width=".8"/>
+<path d="M716 33.9q4 14 0 66.1" stroke="#b2a27a" stroke-width=".8"/>
+<path d="M968 45.1q-4 14 0 41.9" stroke="#b2a27a" stroke-width=".8"/>
+<path d="M1193 12.5q4 14 0 85.5" stroke="#b2a27a" stroke-width=".8"/>
+<path d="M1483 39.8q-4 14 0 57.2" stroke="#b2a27a" stroke-width=".8"/>
+<path d="M58 27.9v92.1" stroke="#b5a36d" stroke-width=".65"/><use href="#star" transform="translate(58 126) rotate(-11) scale(0.75)"/>
+<path d="M256 43.2v54.8" stroke="#b5a36d" stroke-width=".65"/><use href="#star" transform="translate(256 104) rotate(9) scale(0.75)"/>
+<path d="M503 37.5v90.3" stroke="#b5a36d" stroke-width=".65"/><use href="#star" transform="translate(503 135) rotate(-11) scale(0.9)"/>
+<path d="M850 25.8v80.3" stroke="#b5a36d" stroke-width=".65"/><use href="#star" transform="translate(850 112) rotate(9) scale(0.75)"/>
+<path d="M1081 40.1v105.1" stroke="#b5a36d" stroke-width=".65"/><use href="#star" transform="translate(1081 151) rotate(-11) scale(0.72)"/>
+<path d="M1340 42.8v67.4" stroke="#b5a36d" stroke-width=".65"/><use href="#star" transform="translate(1340 117) rotate(9) scale(0.85)"/>
+<path d="M1573 19.1v95.3" stroke="#b5a36d" stroke-width=".65"/><use href="#star" transform="translate(1573 120) rotate(-11) scale(0.7)"/>
+
+<path d="M-400 10Q-200 82 0 10Q200 82 400 10Q600 82 800 10Q1000 82 1200 10Q1400 82 1600 10Q1800 82 2000 10" stroke="url(#wire)" stroke-width="4"/>
+<use href="#tuft" transform="translate(-20 16.8) rotate(-25.5) scale(-1 0.53)"/>
+<use href="#tuft" transform="translate(0 10.0) rotate(15.3) scale(1 0.76)"/>
+<use href="#tuft" transform="translate(20 16.8) rotate(16.5) scale(-1 0.99)"/>
+<use href="#tuft" transform="translate(40 23.0) rotate(17.6) scale(1 0.93)"/>
+<use href="#tuft" transform="translate(60 28.4) rotate(18.6) scale(-1 0.86)"/>
+<use href="#tuft" transform="translate(80 33.0) rotate(7.7) scale(1 0.79)"/>
+<use href="#tuft" transform="translate(100 37.0) rotate(8.7) scale(-1 1.03)"/>
+<use href="#tuft" transform="translate(120 40.2) rotate(9.7) scale(1 0.96)"/>
+<use href="#tuft" transform="translate(140 42.8) rotate(10.7) scale(-1 0.89)"/>
+<use href="#tuft" transform="translate(160 44.6) rotate(-0.4) scale(1 0.83)"/>
+<use href="#tuft" transform="translate(180 45.6) rotate(0.6) scale(-1 0.76)"/>
+<use href="#tuft" transform="translate(200 46.0) rotate(1.5) scale(1 0.99)"/>
+<use href="#tuft" transform="translate(220 45.6) rotate(2.4) scale(-1 0.93)"/>
+<use href="#tuft" transform="translate(240 44.6) rotate(-8.6) scale(1 0.86)"/>
+<use href="#tuft" transform="translate(260 42.8) rotate(-7.7) scale(-1 0.79)"/>
+<use href="#tuft" transform="translate(280 40.2) rotate(-6.7) scale(1 1.03)"/>
+<use href="#tuft" transform="translate(300 37.0) rotate(-5.7) scale(-1 0.96)"/>
+<use href="#tuft" transform="translate(320 33.0) rotate(-16.7) scale(1 0.89)"/>
+<use href="#tuft" transform="translate(340 28.4) rotate(-15.6) scale(-1 0.83)"/>
+<use href="#tuft" transform="translate(360 23.0) rotate(-14.6) scale(1 0.76)"/>
+<use href="#tuft" transform="translate(380 16.8) rotate(-13.5) scale(-1 0.99)"/>
+<use href="#tuft" transform="translate(400 10.0) rotate(15.3) scale(1 0.93)"/>
+<use href="#tuft" transform="translate(420 16.8) rotate(16.5) scale(-1 0.86)"/>
+<use href="#tuft" transform="translate(440 23.0) rotate(17.6) scale(1 0.79)"/>
+<use href="#tuft" transform="translate(460 28.4) rotate(18.6) scale(-1 1.03)"/>
+<use href="#tuft" transform="translate(480 33.0) rotate(7.7) scale(1 0.96)"/>
+<use href="#tuft" transform="translate(500 37.0) rotate(8.7) scale(-1 0.89)"/>
+<use href="#tuft" transform="translate(520 40.2) rotate(9.7) scale(1 0.83)"/>
+<use href="#tuft" transform="translate(540 42.8) rotate(10.7) scale(-1 0.76)"/>
+<use href="#tuft" transform="translate(560 44.6) rotate(-0.4) scale(1 0.99)"/>
+<use href="#tuft" transform="translate(580 45.6) rotate(0.6) scale(-1 0.93)"/>
+<use href="#tuft" transform="translate(600 46.0) rotate(1.5) scale(1 0.86)"/>
+<use href="#tuft" transform="translate(620 45.6) rotate(2.4) scale(-1 0.79)"/>
+<use href="#tuft" transform="translate(640 44.6) rotate(-8.6) scale(1 1.03)"/>
+<use href="#tuft" transform="translate(660 42.8) rotate(-7.7) scale(-1 0.96)"/>
+<use href="#tuft" transform="translate(680 40.2) rotate(-6.7) scale(1 0.89)"/>
+<use href="#tuft" transform="translate(700 37.0) rotate(-5.7) scale(-1 0.83)"/>
+<use href="#tuft" transform="translate(720 33.0) rotate(-16.7) scale(1 0.76)"/>
+<use href="#tuft" transform="translate(740 28.4) rotate(-15.6) scale(-1 0.99)"/>
+<use href="#tuft" transform="translate(760 23.0) rotate(-14.6) scale(1 0.93)"/>
+<use href="#tuft" transform="translate(780 16.8) rotate(-13.5) scale(-1 0.86)"/>
+<use href="#tuft" transform="translate(800 10.0) rotate(15.3) scale(1 0.79)"/>
+<use href="#tuft" transform="translate(820 16.8) rotate(16.5) scale(-1 1.03)"/>
+<use href="#tuft" transform="translate(840 23.0) rotate(17.6) scale(1 0.96)"/>
+<use href="#tuft" transform="translate(860 28.4) rotate(18.6) scale(-1 0.89)"/>
+<use href="#tuft" transform="translate(880 33.0) rotate(7.7) scale(1 0.83)"/>
+<use href="#tuft" transform="translate(900 37.0) rotate(8.7) scale(-1 0.76)"/>
+<use href="#tuft" transform="translate(920 40.2) rotate(9.7) scale(1 0.99)"/>
+<use href="#tuft" transform="translate(940 42.8) rotate(10.7) scale(-1 0.93)"/>
+<use href="#tuft" transform="translate(960 44.6) rotate(-0.4) scale(1 0.86)"/>
+<use href="#tuft" transform="translate(980 45.6) rotate(0.6) scale(-1 0.79)"/>
+<use href="#tuft" transform="translate(1000 46.0) rotate(1.5) scale(1 1.03)"/>
+<use href="#tuft" transform="translate(1020 45.6) rotate(2.4) scale(-1 0.96)"/>
+<use href="#tuft" transform="translate(1040 44.6) rotate(-8.6) scale(1 0.89)"/>
+<use href="#tuft" transform="translate(1060 42.8) rotate(-7.7) scale(-1 0.83)"/>
+<use href="#tuft" transform="translate(1080 40.2) rotate(-6.7) scale(1 0.76)"/>
+<use href="#tuft" transform="translate(1100 37.0) rotate(-5.7) scale(-1 0.99)"/>
+<use href="#tuft" transform="translate(1120 33.0) rotate(-16.7) scale(1 0.93)"/>
+<use href="#tuft" transform="translate(1140 28.4) rotate(-15.6) scale(-1 0.86)"/>
+<use href="#tuft" transform="translate(1160 23.0) rotate(-14.6) scale(1 0.79)"/>
+<use href="#tuft" transform="translate(1180 16.8) rotate(-13.5) scale(-1 1.03)"/>
+<use href="#tuft" transform="translate(1200 10.0) rotate(15.3) scale(1 0.96)"/>
+<use href="#tuft" transform="translate(1220 16.8) rotate(16.5) scale(-1 0.89)"/>
+<use href="#tuft" transform="translate(1240 23.0) rotate(17.6) scale(1 0.83)"/>
+<use href="#tuft" transform="translate(1260 28.4) rotate(18.6) scale(-1 0.76)"/>
+<use href="#tuft" transform="translate(1280 33.0) rotate(7.7) scale(1 0.99)"/>
+<use href="#tuft" transform="translate(1300 37.0) rotate(8.7) scale(-1 0.93)"/>
+<use href="#tuft" transform="translate(1320 40.2) rotate(9.7) scale(1 0.86)"/>
+<use href="#tuft" transform="translate(1340 42.8) rotate(10.7) scale(-1 0.79)"/>
+<use href="#tuft" transform="translate(1360 44.6) rotate(-0.4) scale(1 1.03)"/>
+<use href="#tuft" transform="translate(1380 45.6) rotate(0.6) scale(-1 0.96)"/>
+<use href="#tuft" transform="translate(1400 46.0) rotate(1.5) scale(1 0.89)"/>
+<use href="#tuft" transform="translate(1420 45.6) rotate(2.4) scale(-1 0.83)"/>
+<use href="#tuft" transform="translate(1440 44.6) rotate(-8.6) scale(1 0.76)"/>
+<use href="#tuft" transform="translate(1460 42.8) rotate(-7.7) scale(-1 0.99)"/>
+<use href="#tuft" transform="translate(1480 40.2) rotate(-6.7) scale(1 0.93)"/>
+<use href="#tuft" transform="translate(1500 37.0) rotate(-5.7) scale(-1 0.86)"/>
+<use href="#tuft" transform="translate(1520 33.0) rotate(-16.7) scale(1 0.79)"/>
+<use href="#tuft" transform="translate(1540 28.4) rotate(-15.6) scale(-1 1.03)"/>
+<use href="#tuft" transform="translate(1560 23.0) rotate(-14.6) scale(1 0.96)"/>
+<use href="#tuft" transform="translate(1580 16.8) rotate(-13.5) scale(-1 0.89)"/>
+<use href="#tuft" transform="translate(1600 10.0) rotate(15.3) scale(1 0.83)"/>
+<use href="#tuft" transform="translate(1620 16.8) rotate(16.5) scale(-1 0.76)"/>
+<use href="#tuft" transform="translate(1640 23.0) rotate(17.6) scale(1 0.99)"/>
+
+<path d="M-400 10Q-200 82 0 10Q200 82 400 10Q600 82 800 10Q1000 82 1200 10Q1400 82 1600 10Q1800 82 2000 10" stroke="#f7ffff" stroke-width="1" stroke-opacity=".75"/>
+<g transform="translate(58 31.9)"><path d="M0 0q-4 3.5 0 7" stroke="#315448" stroke-width="1.6"/><use href="#bulb" transform="translate(0 7) rotate(-8)" color="#ff3938"/></g>
+<g transform="translate(175 49.4)"><path d="M0 0q5 6 0 12" stroke="#315448" stroke-width="1.6"/><use href="#bulb" transform="translate(0 12) rotate(7)" color="#39d075"/></g>
+<g transform="translate(292 42.4)"><path d="M0 0q-4 8.5 0 17" stroke="#315448" stroke-width="1.6"/><use href="#bulb" transform="translate(0 17) rotate(-8)" color="#3b89ff"/></g>
+<g transform="translate(418 20.2)"><path d="M0 0q5 3.5 0 7" stroke="#315448" stroke-width="1.6"/><use href="#bulb" transform="translate(0 7) rotate(7)" color="#ffbd37"/></g>
+<g transform="translate(538 46.5)"><path d="M0 0q-4 6 0 12" stroke="#315448" stroke-width="1.6"/><use href="#bulb" transform="translate(0 12) rotate(-8)" color="#f46cbb"/></g>
+<g transform="translate(657 47.1)"><path d="M0 0q5 8.5 0 17" stroke="#315448" stroke-width="1.6"/><use href="#bulb" transform="translate(0 17) rotate(7)" color="#ff3938"/></g>
+<g transform="translate(779 21.2)"><path d="M0 0q-4 3.5 0 7" stroke="#315448" stroke-width="1.6"/><use href="#bulb" transform="translate(0 7) rotate(-8)" color="#39d075"/></g>
+<g transform="translate(902 41.4)"><path d="M0 0q5 6 0 12" stroke="#315448" stroke-width="1.6"/><use href="#bulb" transform="translate(0 12) rotate(7)" color="#3b89ff"/></g>
+<g transform="translate(1021 49.6)"><path d="M0 0q-4 8.5 0 17" stroke="#315448" stroke-width="1.6"/><use href="#bulb" transform="translate(0 17) rotate(-8)" color="#ffbd37"/></g>
+<g transform="translate(1141 32.1)"><path d="M0 0q5 3.5 0 7" stroke="#315448" stroke-width="1.6"/><use href="#bulb" transform="translate(0 7) rotate(7)" color="#f46cbb"/></g>
+<g transform="translate(1264 33.4)"><path d="M0 0q-4 6 0 12" stroke="#315448" stroke-width="1.6"/><use href="#bulb" transform="translate(0 12) rotate(-8)" color="#ff3938"/></g>
+<g transform="translate(1385 49.8)"><path d="M0 0q5 8.5 0 17" stroke="#315448" stroke-width="1.6"/><use href="#bulb" transform="translate(0 17) rotate(7)" color="#39d075"/></g>
+<g transform="translate(1518 37.5)"><path d="M0 0q-4 3.5 0 7" stroke="#315448" stroke-width="1.6"/><use href="#bulb" transform="translate(0 7) rotate(-8)" color="#3b89ff"/></g>
+
+<g transform="translate(116 117)"><circle r="23" fill="url(#blue)" stroke="#c9dedb" stroke-width=".65"/><path d="M-21.39 -8.049999999999999q21.39 7.36 42.78 0v6.44q-21.39 6.8999999999999995 -42.78 0Z" fill="#f2d184" opacity=".9"/><path d="M-22.08 2.3000000000000003q22.08 6.44 44.16 0" stroke="#fff3c2" stroke-width=".8" opacity=".8"/><circle r="23" fill="url(#glass)"/><path d="M-15.6 -9.9q-4.8 -4.8 -2.3 7.4" stroke="#fff" stroke-opacity=".7" stroke-width="2.6" stroke-linecap="round"/><ellipse cx="-6.4" cy="-14.3" rx="4.4" ry="1.7" fill="#fff" opacity=".42" transform="rotate(-25)"/><use href="#cap" y="-23"/></g>
+<g transform="translate(371 113)"><circle r="27" fill="url(#red)" stroke="#c9dedb" stroke-width=".65"/><path d="M-25.110000000000003 -9.45q25.110000000000003 8.64 50.220000000000006 0v7.5600000000000005q-25.110000000000003 8.1 -50.220000000000006 0Z" fill="#f2d184" opacity=".9"/><path d="M-25.919999999999998 2.7q25.919999999999998 7.5600000000000005 51.839999999999996 0" stroke="#fff3c2" stroke-width=".8" opacity=".8"/><circle r="27" fill="url(#glass)"/><path d="M-18.4 -11.6q-5.7 -5.7 -2.7 8.6" stroke="#fff" stroke-opacity=".7" stroke-width="2.6" stroke-linecap="round"/><ellipse cx="-7.6" cy="-16.7" rx="5.1" ry="2.0" fill="#fff" opacity=".42" transform="rotate(-25)"/><use href="#cap" y="-27"/></g>
+<g transform="translate(716 132)"><circle r="27" fill="url(#green)" stroke="#c9dedb" stroke-width=".65"/><path d="M-21.1 -16.9C-13.7 -5.9 -13.7 5.9 -21.1 16.9" fill="none" stroke="#e4fff4" stroke-opacity=".22" stroke-width="1.6"/><path d="M-12.2 -24.1C-7.9 -8.4 -7.9 8.4 -12.2 24.1" fill="none" stroke="#e4fff4" stroke-opacity=".22" stroke-width="1.6"/><path d="M0.0 -27.0C0.0 -9.4 0.0 9.4 0.0 27.0" fill="none" stroke="#e4fff4" stroke-opacity=".22" stroke-width="1.6"/><path d="M12.2 -24.1C7.9 -8.4 7.9 8.4 12.2 24.1" fill="none" stroke="#e4fff4" stroke-opacity=".22" stroke-width="1.6"/><path d="M21.1 -16.9C13.7 -5.9 13.7 5.9 21.1 16.9" fill="none" stroke="#e4fff4" stroke-opacity=".22" stroke-width="1.6"/><circle r="27" fill="url(#glass)"/><path d="M-18.4 -11.6q-5.7 -5.7 -2.7 8.6" stroke="#fff" stroke-opacity=".7" stroke-width="2.6" stroke-linecap="round"/><ellipse cx="-7.6" cy="-16.7" rx="5.1" ry="2.0" fill="#fff" opacity=".42" transform="rotate(-25)"/><use href="#cap" y="-27"/></g>
+<g transform="translate(968 116)"><circle r="24" fill="url(#pink)" stroke="#c9dedb" stroke-width=".65"/><path d="M-22.32 -8.399999999999999q22.32 7.68 44.64 0v6.720000000000001q-22.32 7.199999999999999 -44.64 0Z" fill="#fff0cf" opacity=".9"/><path d="M-23.04 2.4000000000000004q23.04 6.720000000000001 46.08 0" stroke="#fff3c2" stroke-width=".8" opacity=".8"/><circle r="24" fill="url(#glass)"/><path d="M-16.3 -10.3q-5.0 -5.0 -2.4 7.7" stroke="#fff" stroke-opacity=".7" stroke-width="2.6" stroke-linecap="round"/><ellipse cx="-6.7" cy="-14.9" rx="4.6" ry="1.8" fill="#fff" opacity=".42" transform="rotate(-25)"/><use href="#cap" y="-24"/></g>
+<g transform="translate(1193 128)"><circle r="25" fill="url(#gold)" stroke="#d8af57" stroke-width=".65"/><path d="M-19.5 -15.6C-12.7 -5.5 -12.7 5.5 -19.5 15.6" fill="none" stroke="#fff0ba" stroke-opacity=".22" stroke-width="1.6"/><path d="M-11.3 -22.3C-7.3 -7.8 -7.3 7.8 -11.3 22.3" fill="none" stroke="#fff0ba" stroke-opacity=".22" stroke-width="1.6"/><path d="M0.0 -25.0C0.0 -8.8 0.0 8.8 0.0 25.0" fill="none" stroke="#fff0ba" stroke-opacity=".22" stroke-width="1.6"/><path d="M11.3 -22.3C7.3 -7.8 7.3 7.8 11.3 22.3" fill="none" stroke="#fff0ba" stroke-opacity=".22" stroke-width="1.6"/><path d="M19.5 -15.6C12.7 -5.5 12.7 5.5 19.5 15.6" fill="none" stroke="#fff0ba" stroke-opacity=".22" stroke-width="1.6"/><circle r="25" fill="url(#glass)"/><path d="M-17.0 -10.8q-5.3 -5.3 -2.5 8.0" stroke="#fff" stroke-opacity=".7" stroke-width="2.6" stroke-linecap="round"/><ellipse cx="-7.0" cy="-15.5" rx="4.8" ry="1.9" fill="#fff" opacity=".42" transform="rotate(-25)"/><use href="#cap" y="-25"/></g>
+<g transform="translate(1483 126)"><circle r="24" fill="url(#red)" stroke="#c9dedb" stroke-width=".65"/><path d="M-18.7 -15.0C-12.2 -5.3 -12.2 5.3 -18.7 15.0" fill="none" stroke="#e4fff4" stroke-opacity=".22" stroke-width="1.6"/><path d="M-10.8 -21.4C-7.0 -7.5 -7.0 7.5 -10.8 21.4" fill="none" stroke="#e4fff4" stroke-opacity=".22" stroke-width="1.6"/><path d="M0.0 -24.0C0.0 -8.4 0.0 8.4 0.0 24.0" fill="none" stroke="#e4fff4" stroke-opacity=".22" stroke-width="1.6"/><path d="M10.8 -21.4C7.0 -7.5 7.0 7.5 10.8 21.4" fill="none" stroke="#e4fff4" stroke-opacity=".22" stroke-width="1.6"/><path d="M18.7 -15.0C12.2 -5.3 12.2 5.3 18.7 15.0" fill="none" stroke="#e4fff4" stroke-opacity=".22" stroke-width="1.6"/><circle r="24" fill="url(#glass)"/><path d="M-16.3 -10.3q-5.0 -5.0 -2.4 7.7" stroke="#fff" stroke-opacity=".7" stroke-width="2.6" stroke-linecap="round"/><ellipse cx="-6.7" cy="-14.9" rx="4.6" ry="1.8" fill="#fff" opacity=".42" transform="rotate(-25)"/><use href="#cap" y="-24"/></g>
+
+<use href="#bow" transform="translate(595 50.0) rotate(-8) scale(0.9)"/>
+<use href="#bow" transform="translate(1302 39.4) rotate(9) scale(0.86)"/>
+</svg>
