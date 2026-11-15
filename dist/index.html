@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="ru">
+<head>
+ <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+ <meta name="theme-color" content="#f4f1e8">
+ <meta name="description" content="Немного зимы на любом сайте: снег, гирлянды, иней и маленькие праздничные ритуалы. Лёгкая библиотека без зависимостей, сезон 2026–2027.">
+ <title>Winter Things — немного зимы на любом сайте</title>
+ <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23253831'/%3E%3Ctext y='47' x='10' font-size='48' fill='%23eee4cb'%3E✳%3C/text%3E%3C/svg%3E">
+ <link rel="stylesheet" href="./styles.css"><script type="module" src="./app.js"></script>
+</head>
+<body>
+ <a class="skip" href="#workshop">К конструктору</a>
+ <header class="site-header"><a href="#" class="brand" aria-label="Winter Things, начало"><span class="brand-mark" aria-hidden="true">✳</span><span>winter things<span class="brand-dot">.</span></span></a><nav aria-label="Основная навигация"><a href="#workshop">Конструктор</a><a href="#little-things">Маленькие радости</a><a href="#connect">Подключение</a></nav><a class="github-link" href="https://github.com/MarkArtemyev/xmas-new-year-vibes" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a></header>
+ <main>
+  <section class="intro wrap" aria-labelledby="title">
+   <div class="intro-top"><span class="eyebrow"><span class="tiny-star" aria-hidden="true">✦</span> Маленькая зимняя коллекция</span><span class="season">ЗИМА 2026 — 2027</span></div>
+   <div class="intro-main"><h1 id="title">Немного зимы.<br><em>На любом сайте.</em><span class="title-spark" aria-hidden="true">✳</span></h1><div class="intro-copy"><p>Тихий снег. Тёплые огоньки.<br>И то самое «хорошо быть дома».</p><p class="muted">Добавь настроение своему сайту.<br>Без тяжёлых библиотек и лишнего шума.</p><a href="#workshop" class="text-link">Собрать свою зиму <span aria-hidden="true">↙</span></a></div></div>
+  </section>
+  <section id="workshop" class="workshop wrap" aria-labelledby="workshop-title">
+   <div class="section-heading"><h2 id="workshop-title"><span>01</span> Мастерская настроения</h2><span class="live-indicator"><i></i> живое превью</span></div>
+   <div class="studio">
+    <div class="preview-column">
+     <div id="scene" class="scene" data-preset="hearth" role="group" aria-label="Живое превью: уютная зимняя комната">
+      <img class="room-art" src="./assets/cozy-room.svg" alt="" width="1000" height="700" fetchpriority="high">
+      <div class="scene-top"><span class="scene-stamp">a little winter, please</span><button id="expand" class="round-button" aria-label="Примерить эффекты ко всей странице" title="Примерить на странице">⤢</button></div>
+      <div class="scene-caption"><span class="scene-caption-line"></span><p id="scene-poem">Пусть мир немного подождёт.</p><span>вечер, который никуда не спешит</span></div>
+     </div>
+     <div class="preview-bottom"><span id="motion-status">Движение включено</span><div><button id="pause" class="small-button" aria-pressed="false"><span aria-hidden="true">Ⅱ</span> Пауза</button><button id="off" class="small-button" aria-pressed="false">Выключить</button></div></div>
+    </div>
+    <aside class="controls" aria-label="Настройки зимнего настроения">
+     <div class="control-heading"><div><span class="eyebrow">Твоя атмосфера</span><h3>Устройся поуютнее.</h3></div><button id="reset" class="icon-button" aria-label="Сбросить настройки" title="Начать сначала">↺</button></div>
+     <fieldset class="presets"><legend>Начни с настроения</legend><div class="preset-grid"><button class="preset active" data-preset="hearth" aria-pressed="true"><span class="swatch swatch-hearth"></span><span>У камина<small>тёплый янтарь</small></span></button><button class="preset" data-preset="northern" aria-pressed="false"><span class="swatch swatch-northern"></span><span>Северная ночь<small>лёд и звёзды</small></span></button><button class="preset" data-preset="sugarplum" aria-pressed="false"><span class="swatch swatch-sugarplum"></span><span>Сахарная слива<small>ягодный вечер</small></span></button></div></fieldset>
+     <fieldset class="effects"><legend>Маленькие детали</legend><label class="effect-row"><span><span class="effect-symbol" aria-hidden="true">❄</span>Тихий снег</span><input type="checkbox" id="snow" checked><span class="switch" aria-hidden="true"></span></label><label class="effect-row"><span><span class="effect-symbol" aria-hidden="true">⌁</span>Гирлянда</span><input type="checkbox" id="lights" checked><span class="switch" aria-hidden="true"></span></label><label class="effect-row"><span><span class="effect-symbol" aria-hidden="true">⋆</span>Звёздная пыль</span><input type="checkbox" id="stars"><span class="switch" aria-hidden="true"></span></label><label class="effect-row"><span><span class="effect-symbol" aria-hidden="true">⤱</span>Иней по краям</span><input type="checkbox" id="frost"><span class="switch" aria-hidden="true"></span></label></fieldset>
+     <div class="range-control"><label for="density">Сколько снега<span id="density-value">35%</span></label><input type="range" min="0" max="100" value="35" id="density"><div class="range-labels"><span>едва заметно</span><span>зима пришла</span></div></div>
+     <button id="copy-kit" class="primary-button">Забрать это настроение <span aria-hidden="true">↗</span></button>
+     <p class="control-note">Код подключения с твоими настройками</p>
+    </aside>
+   </div>
+   <div class="benefits"><span>◌ <b>Без зависимостей</b></span><span>⌁ <b>Уважает reduced motion</b></span><span>↗ <b>Для любого сайта</b></span><span>♡ <b>Открытый код · MIT</b></span></div>
+  </section>
+  <section id="little-things" class="little-things wrap" aria-labelledby="little-title">
+   <div class="section-heading"><h2 id="little-title"><span>02</span> Ещё немного хорошего</h2><span class="section-aside">маленькие вещи, большое настроение</span></div>
+   <div class="extras-grid"><article class="countdown-card"><div class="card-kicker"><span class="tiny-star" aria-hidden="true">✦</span> Новая глава совсем рядом</div><winter-countdown id="new-year" label="До 2027 года"></winter-countdown><div class="card-bottom"><span id="timezone-label"></span><div><button id="countdown-pause" class="bare-button" aria-pressed="false">Пауза</button><button class="bare-button" data-snippet="countdown">Код ↗</button></div></div><span class="countdown-ornament" aria-hidden="true">✳</span></article><article class="postcard-example"><span class="card-kicker">Письмо без повода</span><winter-postcard title="Для тебя, с теплом" signature="Кто-то оставил это здесь ♡"></winter-postcard><div class="card-bottom"><span>Нажми — внутри кое-что хорошее</span><button class="bare-button" data-snippet="postcard">Код ↗</button></div></article></div>
+  </section>
+  <section id="connect" class="connect wrap" aria-labelledby="connect-title">
+   <div class="connect-intro"><span class="eyebrow">03 / Забрать с собой</span><h2 id="connect-title">Хорошее настроение.<br><em>Пара строк кода.</em></h2><p>Обычный HTML, React, Vue или твой любимый<br>хаос на JavaScript. Зима подружится со всеми.</p><a href="https://github.com/MarkArtemyev/xmas-new-year-vibes#readme" target="_blank" rel="noreferrer" class="text-link">Вся документация <span aria-hidden="true">↗</span></a></div>
+   <div class="code-panel"><div class="code-header"><div role="tablist" aria-label="Способ подключения"><button role="tab" aria-selected="true" id="tab-html" aria-controls="code-content" data-format="html">HTML</button><button role="tab" aria-selected="false" id="tab-esm" tabindex="-1" aria-controls="code-content" data-format="esm">ES Module</button></div><button id="copy-code" class="copy-button" aria-label="Скопировать код подключения">Копировать <span aria-hidden="true">⧉</span></button></div><pre id="code-content" role="tabpanel" aria-labelledby="tab-html" tabindex="0"><code id="code-text"></code></pre><div class="code-foot"><span><i></i> v0.1.0</span><a href="./winter-vibes.min.js" download>Скачать JS ↓</a></div></div>
+  </section>
+  <section class="notes wrap"><div class="note-star" aria-hidden="true">✳</div><div><h2>Современная зима, без лишнего.</h2><p>Тактильность и тёплая несовершенность из визуальных направлений 2026. Спокойное движение, простое отключение и изолированные стили. А 2027 — хороший повод начать с чего-то приятного.</p><a href="https://github.com/MarkArtemyev/xmas-new-year-vibes/blob/main/docs/research.md" target="_blank" rel="noreferrer">Источники и решения ↗</a></div><span class="handnote">сделано, чтобы<br>стало чуть теплее.</span></section>
+ </main>
+ <footer class="wrap"><a class="brand" href="#"><span class="brand-mark" aria-hidden="true">✳</span>winter things.</a><span>Маленький открытый проект · 2026–2027</span><a href="https://github.com/MarkArtemyev/xmas-new-year-vibes" target="_blank" rel="noreferrer">Забрать на GitHub ↗</a></footer>
+ <div id="toast" class="toast" role="status" aria-live="polite"></div>
+ <button id="page-off" class="page-off" hidden>Выключить зиму на странице ×</button>
+ <dialog id="snippet-dialog" aria-labelledby="snippet-title"><div class="dialog-header"><h2 id="snippet-title">Маленькая радость на твоём сайте</h2><button id="close-dialog" class="icon-button" aria-label="Закрыть">×</button></div><p>Подключи библиотеку один раз. Затем добавь компонент туда, где нужно немного тепла.</p><pre><code id="extra-code"></code></pre><button id="copy-extra" class="primary-button">Скопировать код ⧉</button></dialog>
+</body>
+</html>

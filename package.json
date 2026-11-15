@@ -1,0 +1,28 @@
+{
+  "name": "xmas-new-year-vibes",
+  "version": "0.1.0",
+  "description": "Small, thoughtful winter effects for any website. Season 2026–2027.",
+  "type": "module",
+  "private": true,
+  "license": "MIT",
+  "exports": {
+    ".": {
+      "types": "./dist/winter-vibes.d.ts",
+      "import": "./dist/winter-vibes.js"
+    }
+  },
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "node scripts/serve.mjs",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2",
+    "happy-dom": "21.0.4"
+  }
+}
